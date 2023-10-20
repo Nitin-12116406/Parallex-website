@@ -1,3 +1,37 @@
-h1{
-    color:antiquewhite;
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+.wrapper{
+    height:100vh;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    perspective: 10px;
+   
+}
+header{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.background{
+    transform: translateZ(-40px) scale(5);
+}
+.foreground{
+    transform: translateZ(-20px) scale(3);
+}
+.background,.foreground{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+
 }
