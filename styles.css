@@ -47,8 +47,49 @@ section{
     padding:5rem;
     color:white;
 }
-.desc{
+/* .desc{
     border: 1px solid black;
     display: inline-block;
     background-color: antiquewhite;
+} */
+.bg{
+    position: relative;
+    width:100%;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+    height: 500px;
+
+}
+.desc{
+    background-color: white;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    color:black;
+    padding: 0.5rem 2.5rem;
+    font-size: 3rem;
+}
+.bg1{
+    background-image: url(./sport-1.jpg);
+
+}
+.bg2{
+    background-image: url(./sport-2.jpg);
+
+}
+.bg3{
+    background-image: url(./sport-3.jpg);
+
+}
+.secHEading{
+    padding: 0 10rem;
+    font-size: 5rem;
+}
+.text{
+    padding:0 15rem;
+    margin: 5rem 0;
+    font-size: 1.5rem;
+
 }
