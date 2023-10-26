@@ -86,6 +86,7 @@ section{
 .secHEading{
     padding: 0 10rem;
     font-size: 5rem;
+    text-align: center;
 }
 .text{
     padding:0 15rem;
